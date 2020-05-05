@@ -38,6 +38,8 @@
     <a href="https://github.com/960813/jquery-kobis-app"><strong>Explore the Github »</strong></a>
     <br />
     <br />
+    <a href="https://jupiterflow.com/project/6">View Snapshots</a>
+    ·
     <a href="https://github.com/960813/jquery-kobis-app/issues">Report Bug</a>
     ·
     <a href="https://github.com/960813/jquery-kobis-app/issues">Request Feature</a>
@@ -63,9 +65,9 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-[![영화진흥위원회 오픈 API 활용 제이쿼리 과제][product-screenshot-1]](https://github.com/960813/jquery-kobis-app)
-[![영화진흥위원회 오픈 API 활용 제이쿼리 과제][product-screenshot-2]](https://github.com/960813/jquery-kobis-app)
-[![영화진흥위원회 오픈 API 활용 제이쿼리 과제][product-screenshot-3]](https://github.com/960813/jquery-kobis-app)
+[![영화진흥위원회 오픈 API 활용 제이쿼리 과제][product-screenshot-1]](https://jupiterflow.com/project/6)
+[![영화진흥위원회 오픈 API 활용 제이쿼리 과제][product-screenshot-2]](https://jupiterflow.com/project/6)
+[![영화진흥위원회 오픈 API 활용 제이쿼리 과제][product-screenshot-3]](https://jupiterflow.com/project/6)
 
 '영화진흥위원회 오픈 API 활용 제이쿼리 과제'는 2020년 컴퓨터정보과 2학년 1학기 제이쿼리 강의 수행 목적으로 제작/개발한 프로젝트입니다. 
 
@@ -187,7 +189,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
 JIN TAEYANG - keriel@jupiterflow.com
 
-Project Link: [https://github.com/960813/jquery-kobis-app](https://github.com/960813/jquery-kobis-app)
+Project Link: [https://jupiterflow.com/project/6](https://jupiterflow.com/project/6)
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
