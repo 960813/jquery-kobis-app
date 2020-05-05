@@ -80,7 +80,6 @@ const searchDailyBoxOfficeList = (callback) => {
             });
             // last-callback
             if (callback) callback();
-
         });
 
 
