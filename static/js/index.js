@@ -1,6 +1,7 @@
 const getYeterdayDate = () => {
-    const today = new Date();
+    const today = new Date(new Date().getTime() + (9 * 60 * 60 * 1000));
     today.setDate(today.getDate() - 1);
+    console.log(today);
     return today;
 };
 
