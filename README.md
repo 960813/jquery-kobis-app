@@ -49,7 +49,7 @@
 ## Table of Contents
 
 * [About the Project](#about-the-project)
-  * [Useage](#useage)
+  * [Usage](#usage)
   * [Summary](#summary)
   * [Main Features](#main-features)
   * [Built With](#built-with)
