@@ -1,0 +1,30 @@
+table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+table colgroup col:nth-child(1) {
+    width: 20%;
+}
+
+table colgroup col:nth-child(2) {
+    width: 20%;
+}
+
+table colgroup col:nth-child(3) {
+    width: 60%;
+}
+
+td, th {
+    text-align: center;
+    border-bottom: 0.1rem solid #eee;
+    padding: 1.2rem 1.5rem;
+}
+
+td:last-child {
+    width: 100%;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

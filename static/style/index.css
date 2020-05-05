@@ -1,0 +1,145 @@
+#app > #container > .movieDetail {
+    display: none;
+    border: thin solid gray;
+    margin: .5em;
+    box-shadow: 0 1px 5px #555;
+}
+
+#app > #container > .movieDetail > .movieDetail__content {
+    margin: .5em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#app > #container > .movieDetail > .movieDetail__content > #closeBtn {
+    position: relative;
+    width: 100%;
+}
+
+#app > #container > .movieDetail > .movieDetail__content > #closeBtn > img {
+    position: absolute;
+    width: 40px;
+    cursor: pointer;
+    top: 0;
+    right: 0;
+}
+
+#app > #container > .movieDetail > .movieDetail__content > a {
+    width: 30%;
+}
+
+#app > #container > .movieDetail > .movieDetail__content > a > img {
+    width: 100%;
+    height: 100%;
+}
+
+#app > #container > .movieDetail > .movieDetail__content > .movieDetail__info {
+    display: block;
+    box-sizing: border-box;
+    width: 70%;
+    padding-left: .5em;
+}
+
+#app > #container > .movieItems {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+#app > #container > .movieItems > .movieItems__movieItem {
+    width: 20%;
+    flex-direction: row;
+}
+
+#app > #container > .movieItems > .movieItems__movieItem > .movieItem__grid {
+    display: block;
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+    #app > #container > .movieItems > .movieItems__movieItem {
+        width: 100%;
+    }
+
+    #app > #container > .movieDetail > .movieDetail__content > a {
+        width: 100%;
+    }
+
+    #app > #container > .movieDetail > .movieDetail__content > .movieDetail__info {
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .movieDetail__info .detail__box {
+        margin-top: .5em;
+    }
+}
+
+/* Tablet */
+@media (min-width: 640px) and (max-width: 768px) {
+    #app > #container > .movieItems > .movieItems__movieItem {
+        width: 50%;
+    }
+
+    #app > #container > .movieDetail > .movieDetail__content > a {
+        width: 50%;
+    }
+
+    #app > #container > .movieDetail > .movieDetail__content > .movieDetail__info {
+        width: 50%;
+    }
+}
+
+
+#app > #container > .movieItems > .movieItems__movieItem > .movieItem__grid {
+    border: thin solid gray;
+    margin: .5em;
+    box-shadow: 0 1px 5px #555;
+}
+
+#app > #container > .movieItems > .movieItems__movieItem > .movieItem__grid > .movieItem__thumb {
+    margin: .5em;
+    cursor: pointer;
+    display: flex;
+}
+
+#app > #container > .movieItems > .movieItems__movieItem > .movieItem__grid > .movieItem__thumb > img {
+    vertical-align: middle;
+    border-style: none;
+    width: 100%;
+    height: 100%;
+}
+
+.movieDetail__info .detail__box {
+    margin-bottom: 1em;
+}
+
+.movieDetail__info .detail__title {
+    display: block;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.movieDetail__info .detail__title a {
+    color: black;
+}
+
+.movieDetail__info .detail__title i {
+    background-image: url(../images/shortcut.png);
+    background-size: 1.3em;
+    line-height: 1.4em;
+    padding-left: 1.4em;
+    background-repeat: no-repeat;
+}
+
+.movieDetail__info .detail__text {
+
+    background-color: lightblue;
+    border-radius: 20px;
+    padding: 5px 15px;
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,104 @@
+a {
+    text-decoration: none;
+}
+
+.navbar > a, .navbar > a:focus, .navbar > a:hover {
+    color: #fff;
+}
+
+#app > #loading {
+    display: flex;
+    position: absolute;
+    background-color: #343a40;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+#app > #loading > img {
+    width: 10%;
+    height: 10%;
+}
+#app > #loading > span {
+    font-size: 2em;
+    color: #fff;
+    margin-top: .5em;
+}
+
+
+#app > .navbar {
+    background-color: #343a40;
+    display: flex;
+    flex-wrap: wrap;
+    padding: .5rem 1rem;
+    justify-content: space-between;
+}
+
+#app > .navbar > .navbar__title {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+#app > .navbar > #dateCal {
+    margin-left: -1rem;
+    padding-left: 1rem;
+    background: #f9f9f9;
+    border-radius: 15px;
+    border: none;
+}
+
+.navbar__toggler {
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.5);
+    border-color: rgba(255, 255, 255, .1);
+    cursor: pointer;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: .25rem .75rem;
+    line-height: 1;
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar__slideMenu {
+    display: none;
+    color: white;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.navbar__slideMenu li {
+    padding: 6px 6px 6px 32px;
+}
+
+.navbar__slideMenu a,
+.navbar__slideMenu a:link,
+.navbar__slideMenu a:visited {
+    color: #a9a9a9;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.navbar__slideMenu a:hover {
+    color: white;
+}
+
+#app > #container {
+    padding: 1em;
+}
+

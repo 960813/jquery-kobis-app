@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- jQuery 라이브러리 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+
+    <script src="static/js/serviceKey.js"></script>
+    <script src="static/js/common.js"></script>
+    <script src="static/js/people.js"></script>
+
+    <link rel="stylesheet" href="static/style/normalize.css">
+    <link rel="stylesheet" href="static/style/common.css">
+    <link rel="stylesheet" href="static/style/people.css">
+
+    <title>Movie Center</title>
+</head>
+<body>
+<div id="app">
+    <div id="loading"><img src="static/images/loading.svg"><span></span></div>
+    <nav class="navbar">
+        <a href="/movie/people.html" class="navbar__title">Movie</a>
+        <button class="navbar__toggler"></button>
+        <ul class="navbar__slideMenu">
+            <li><a href="/movie">일별 박스오피스 랭킹</a></li>
+            <li><a href="/movie/company.html">영화사 목록</a></li>
+            <li><a href="/movie/people.html">영화인 목록</a></li>
+        </ul>
+    </nav>
+    <div id="container">
+        <table>
+            <colgroup>
+                <col>
+                <col>
+                <col>
+            </colgroup>
+            <thead>
+            <th>이름</th>
+            <th>분야</th>
+            <th>작품</th>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+</div>
+
+</div>
+</body>
+</html>
