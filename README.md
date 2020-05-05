@@ -94,16 +94,6 @@
 * 영화인 목록 조회
     * 영화진흥위원회 영화인 목록 API 이용
     * 반환되는 목록 중 1페이지~5페이지(50개)를 테이블로 출력
-
-
-### Built With
-* [jQuery](https://jquery.com/)
-* [KOBIS OpenAPI](http://www.kobis.or.kr/kobisopenapi/homepg/apiservice/searchServiceInfo.do)
-* [Express.js](https://expressjs.com/)
-    > with CustomAPI: 기존 영화상세정보 API에서 영화 포스터, 네이버 영화 페이지 바로가기 엘리먼트 추가  
-     URI: http://ync.jupiterflow.com/jquery/searchMovieInfo  
-     queryString: key(KOBIS OpenAPI 인증키), movieCd(영화코드)  
-     Return: [영화 상세정보 API](http://www.kobis.or.kr/kobisopenapi/homepg/apiservice/searchServiceInfo.do)와 동일
       
 ### Code Review
 * 공통
@@ -175,6 +165,15 @@
            /* .. */
         });
         ```
+       
+### Built With
+* [jQuery](https://jquery.com/)
+* [KOBIS OpenAPI](http://www.kobis.or.kr/kobisopenapi/homepg/apiservice/searchServiceInfo.do)
+* [Express.js](https://expressjs.com/)
+    > with CustomAPI: 기존 영화상세정보 API에서 영화 포스터, 네이버 영화 페이지 바로가기 엘리먼트 추가  
+     URI: http://ync.jupiterflow.com/jquery/searchMovieInfo  
+     queryString: key(KOBIS OpenAPI 인증키), movieCd(영화코드)  
+     Return: [영화 상세정보 API](http://www.kobis.or.kr/kobisopenapi/homepg/apiservice/searchServiceInfo.do)와 동일
 
 <!-- CONTRIBUTING -->
 ## Contributing
