@@ -30,7 +30,7 @@
     <img src="https://github.com/960813/jquery-kobis-app/blob/master/_data/README.png?raw=true" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">\[kobis-movie-app\] 영화진흥위원회 오픈 API 활용 제이쿼리 과제</h3>
+  <h3 align="center">[kobis-movie-app] 영화진흥위원회 오픈 API 활용 제이쿼리 과제</h3>
 
   <p align="center">
     제이쿼리(jQuery) 및 영화진흥위원회 오픈API를 이용한 일별 박스오피스, 영화사 목록, 영화인 목록 제공 웹 서비스
