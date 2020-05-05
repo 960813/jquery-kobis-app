@@ -49,6 +49,7 @@
 ## Table of Contents
 
 * [About the Project](#about-the-project)
+  * [Useage](#useage)
   * [Summary](#summary)
   * [Main Features](#main-features)
   * [Built With](#built-with)
@@ -65,9 +66,12 @@
 [![영화진흥위원회 오픈 API 활용 제이쿼리 과제][product-screenshot-1]](https://github.com/960813/jquery-kobis-app)
 [![영화진흥위원회 오픈 API 활용 제이쿼리 과제][product-screenshot-2]](https://github.com/960813/jquery-kobis-app)
 [![영화진흥위원회 오픈 API 활용 제이쿼리 과제][product-screenshot-3]](https://github.com/960813/jquery-kobis-app)
-[![영화진흥위원회 오픈 API 활용 제이쿼리 과제][product-screenshot-4]](https://github.com/960813/jquery-kobis-app)
 
 '영화진흥위원회 오픈 API 활용 제이쿼리 과제'는 2020년 컴퓨터정보과 2학년 1학기 제이쿼리 강의 수행 목적으로 제작/개발한 프로젝트입니다. 
+
+### Usage
+1. `static/js/serviceKey.js` 생성
+2. 해당 파일에 `const serviceKey = "{영화진흥위원회 OpenAPI 인증키}";` 작성
 
 ### Summary
 * 반응형 웹 뷰(모바일, 타블렛, PC 3구간으로 나누어 지원)
@@ -215,4 +219,3 @@ Project Link: [https://github.com/960813/jquery-kobis-app](https://github.com/96
 [product-screenshot-1]: https://github.com/960813/jquery-kobis-app/blob/master/_data/001.JPG?raw=true
 [product-screenshot-2]: https://github.com/960813/jquery-kobis-app/blob/master/_data/002.JPG?raw=true
 [product-screenshot-3]: https://github.com/960813/jquery-kobis-app/blob/master/_data/003.JPG?raw=true
-[product-screenshot-4]: https://github.com/960813/jquery-kobis-app/blob/master/_data/004.JPG?raw=true
