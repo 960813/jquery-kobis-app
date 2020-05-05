@@ -38,7 +38,7 @@
     <a href="https://github.com/960813/jquery-kobis-app"><strong>Explore the Github »</strong></a>
     <br />
     <br />
-    <a href="https://jupiterflow.com/project/6">View Snapshots</a>
+    <a href="http://ync.jupiterflow.com/movie/">View Demo</a>
     ·
     <a href="https://github.com/960813/jquery-kobis-app/issues">Report Bug</a>
     ·
