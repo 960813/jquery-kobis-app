@@ -176,7 +176,7 @@
      URI: http://ync.jupiterflow.com/jquery/searchMovieInfo  
      queryString: key(KOBIS OpenAPI 인증키), movieCd(영화코드)  
      Return: [영화 상세정보 API](http://www.kobis.or.kr/kobisopenapi/homepg/apiservice/searchServiceInfo.do)와 동일
-
+     응답 예시: [바로가기](http://ync.jupiterflow.com/jquery/searchMovieInfo?key=430156241533f1d058c603178cc3ca0e&movieCd=20124079)
 <!-- CONTRIBUTING -->
 ## Contributing
 This repository is not managed.
