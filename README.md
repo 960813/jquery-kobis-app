@@ -40,6 +40,8 @@
     <br />
     <a href="http://ync.jupiterflow.com/movie/">View Demo</a>
     ·
+    <a href="https://www.youtube.com/watch?v=rUvsVF08Sw0">Review Video</a>
+    ·
     <a href="https://github.com/960813/jquery-kobis-app/issues">Report Bug</a>
     ·
     <a href="https://github.com/960813/jquery-kobis-app/issues">Request Feature</a>
